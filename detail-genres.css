@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+.titulo-genero {
+    color: crimson;
+    text-align: center;
+   
+    font-style: oblique;
+    font-size: 70px;
+    
+}
+
+.separador {
+
+   color:rgb(22, 21, 21);
+   text-align: center;
+   font-size: 40px;
+}
+
+.titulo-pelicula {
+    color:crimson;
+    text-align: left;
+    text-indent: 115px;
+    font: bolder;
+    font-size: 40px;
+    text-decoration:underline;
+
+}
+.peliculas-titulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    
+    
+    
+    
+}
+
+.peliculas-titulos article {
+    color: white;
+    border-radius: 13px;
+    border-style: double;
+    border-color: crimson;
+    
+}
+
+.imagenes {
+    height: 360px;
+    width: 230px;
+   border-bottom-left-radius: 13px;
+   border-bottom-right-radius: 13px;
+    object-fit: cover;
+}
+
+.series-titulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.series-titulos article {
+    color: white;
+    border-radius: 13px;
+    border-spacing: 1cm;
+    border-style: double;
+    border-color: crimson;
+   
+    
+}
+.titulo-series {
+    color:crimson;
+    text-align: left;
+    text-indent: 115px;
+    font: bolder;
+    font-size: 40px;
+    text-decoration:underline;
+   
+    
+
+}
+
