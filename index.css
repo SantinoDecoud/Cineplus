@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+.titulo-pelicula {
+    color: white;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+.peliculas-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    
+}
+
+.peliculas-genero article {
+    color: white;
+    border-radius: 13px;
+    border-style: solid;
+    font-family: "Urbanist", sans-serif;
+}
+
+.imagenes {
+    height: 360px;
+    width: 230px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.series-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.series-genero article {
+    color: white;
+    border-radius: 13px;
+    border-style: solid;
+    font-family: "Urbanist", sans-serif;
+   
+    
+}
+.titulo-series {
+    color: white;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.atributoflex{
+display: flex;
+flex: wrap;
+flex-direction: row;
+color: white;
+font-family: "Urbanist", sans-serif;
+}
+
+.atributoflex img{
+    width: 100%;
+    }
+.atributoflex article{
+    width: 18%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.letrablanca{
+color: white;
+font-family: "Urbanist", sans-serif;
+
+}
