@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+
+header{
+    padding: 7px;
+    color: white;
+    border-radius: 13px;
+    border-style: double;
+    border-color: crimson;
+    background: white;
+    
+}
+
+
+header img{
+    width: 145px;
+    border-radius: 14px;
+
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    width: 100%;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+
+
+
+
+.titulo-pelicula {
+    color:black;
+    text-align: left;
+    text-indent: 115px;
+    background-color: crimson;
+    
+
+
+}
+.peliculas-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.peliculas-genero article {
+    color: white;
+    border-radius: 13px;
+    border-style: double;
+    border-color: crimson;
+}
+
+.imagenes {
+    height: 360px;
+    width: 230px;
+   border-bottom-left-radius: 13px;
+   border-bottom-right-radius: 13px;
+    object-fit: cover;
+}
+
+.series-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.series-genero article {
+    color: white;
+    border-radius: 13px;
+    border-spacing: 1cm;
+    border-style: double;
+    border-color: crimson;
+   
+    
+}
+.titulo-series {
+    color:black;
+    text-align: left;
+    text-indent: 115px;
+    background-color: crimson;
+    
+
+}
+
+

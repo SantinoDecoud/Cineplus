@@ -99,3 +99,9 @@ nav ul li {
     border-radius: 0px;
     margin-left: -90%;
 }
+@media (max-width: 420px){ 
+    .descripcion-pelicula {
+        flex-direction: column;
+    }
+
+}
