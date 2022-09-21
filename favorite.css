@@ -12,15 +12,8 @@ header{
     
 }
 
-
-header img{
-    width: 145px;
-    border-radius: 14px;
-
-}
-
 .container {
-    background: white;
+    background: gray;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
