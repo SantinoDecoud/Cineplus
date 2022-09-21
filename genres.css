@@ -20,7 +20,7 @@ header img{
 }
 
 .container {
-    background: white;
+    background:gray;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
