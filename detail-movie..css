@@ -95,9 +95,10 @@ nav ul li {
 }
 
 .info  {
-    margin-top: 13%;
+    margin-top: 6%;
     border-radius: 0px;
     margin-left: -90%;
+    color: white;
 }
 @media (max-width: 420px){ 
     .descripcion-pelicula {

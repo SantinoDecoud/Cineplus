@@ -91,10 +91,15 @@ nav ul li {
     font-size: 30px;
     margin-right: 66%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+
+
 
 .info  {
     margin-top: 6%;
     border-radius: 0px;
     margin-left: -90%;
+    color: white;
 }
