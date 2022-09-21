@@ -3,7 +3,6 @@ body {
 }
 header{
     padding: 7px;
-    color: white;
     border-radius: 13px;
     border-style: double;
     border-color: crimson;
@@ -11,12 +10,6 @@ header{
     
 }
 
-
-header img{
-    width: 145px;
-    border-radius: 14px;
-
-}
 
 .container {
     background: white;
