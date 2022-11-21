@@ -12,7 +12,7 @@ header{
 }
 
 .container {
-    background: gray;
+    background: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ header{
 
 a {
     text-decoration: none;
-    color: black;
+    color: crimson;
 }
 nav {
     width: 100%;
@@ -115,4 +115,9 @@ nav ul li {
     
 
 }
-
+.nombre {
+    color:white;
+    text-align: left;
+    text-indent: 115px;
+    background-color: crimson;
+}
