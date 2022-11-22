@@ -14,7 +14,7 @@ header{
 
 
 .container {
-    background: gray;
+    background:black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,7 +26,7 @@ header{
 
 a {
     text-decoration: none;
-    color: black;
+    color:crimson;
 }
 nav {
     width: 100%;

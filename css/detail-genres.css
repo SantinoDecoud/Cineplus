@@ -121,3 +121,14 @@ nav ul li {
     text-indent: 115px;
     background-color: crimson;
 }
+
+.pelis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 13px;
+    border-style: double;
+    border-color: crimson;
+    
+}
