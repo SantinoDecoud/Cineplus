@@ -22,7 +22,7 @@ fetch(`https://api.themoviedb.org/3/discover/movie?api_key=764e5562e5fed92cb370d
     for(let i=0; i<info.length; i++){
         
         peliculas.innerHTML += 
-                                `<a href="detail-movie.html?id=${info[i].id}"><img src="https://image.tmdb.org/t/p/w500${info[i].poster_path}" alt=""></a>`
+                                `<a href="detail-movie.html"><img src="https://image.tmdb.org/t/p/w500${info[i].poster_path}" alt=""></a>`
     }
 
 
@@ -44,7 +44,7 @@ fetch(`https://api.themoviedb.org/3/discover/tv?api_key=764e5562e5fed92cb370d453
     for(let i=0; i<info.length; i++){
         
         peliculas.innerHTML += 
-                                `<a href="detail-series.html?id=${info[i].id}"><img src="https://image.tmdb.org/t/p/w500${info[i].poster_path}" alt=""></a>`
+                                `<a href="detail-series.html"><img src="https://image.tmdb.org/t/p/w500${info[i].poster_path}" alt=""></a>`
     }
 
 
